@@ -1,72 +1,86 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+![8V9H%20%281%29.gif](attachment:8V9H%20%281%29.gif)
 
-![blueprint](images/blueprint.png)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+# Phase 1 Project - Microsoft's Cinematic Exploration: A Box Office Analysis
 
-## Repository Contents
+**Author:** [Rhoda Musyoki](rhoda.musyoki@student.moringaschool.com)
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Overview
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `zippedData` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+Microsoft is venturing into the world of movie production and aims to establish a successful movie studio. This data analysis project is done to gain some insights on the industry and involves analyzing data on box office performance, including factors such as genre, production budget, ROI, release day/ month and viewer ratings. Various data analysis methods were employed to uncover insights from the data. The results reveal trends and patterns in successful movies which allows Microsoft to make data-driven decisions on the types of movies to produce. Recommendations are provided to guide the studio in creating content that is likely to be well-received by audiences and financially successful in the competitive film industry. 
 
-## Instructions For Using This Repository
+## Business Problem
 
-### Fork This Repository
+Microsoft has decided to venture into the movie production industry with the establishment of a new movie studio. Microsoft however lacks prior experience in this field and needs to make informed decisions about the types of films to create in order to achieve success at the box office.
 
-**For a group project**, have only one team member do these steps:
+*** Questions to consider:***
+1. What genre yields the highest return on investment (ROI) in the context of box office performance?
+2. What is the best day and month for movie release to maximize box office revenue and audience reception?
+3. Is there a statistically significant correlation between production budget and worldwide gross revenue for movies?
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+## Data 
 
-3. Use `git clone` to clone your fork of this repo to your local computer
-
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
-
-### Work In Your Fork Of This Repository
-
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
-
-### Use The Slide Template
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
-
-### Tidy Up Your Project
-
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - Any unused data files in the `zippedData` folder
-   - Any unused images in the `images` folder
-- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
-   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
-
-### Submit Your Project
-
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+The data sources for this analysis include IMDb's title and ratings data, Box Office Mojo's movie gross data, and The Numbers' movie budgets data.
 
 ***
-### Notes
+Datasets Used:
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+1. imdb.title.basics: This dataset contains information about movie titles, including genres, release year and runtime. It  will be used to understand the genres and general characteristics of the movies in the analysis
+
+2. imdb.title.ratings: This dataset provides movie ratings for an assessment of audience reception. These ratings help in evaluating the success of movies
+
+3. bom.movie_gross: This dataset includes information on the domestic and foreign box office gross revenue for movies
+
+4. tn.movie_budgets: This dataset provides data on the production budgets and worldwide gross revenue of movies for the 
+   analysis of the relationship between budgets and revenue ***
+   
+   
+## Methods
+
+This project uses descriptive statistics to understand box office trends such as correlation to identify predictive factors for a movie's success
+
+
+## Conclusions
+
+Based on the insights from the analysis, the following recommendations are made:
+
+1. To maximize return on investment (ROI), focus on producing movies in the Horror, Mystery, Thriller, and Action, Drama, Family genres.
+
+![genreroi.png](attachment:genreroi.png)
+
+2. May, June, and July (summer time) are the ideal months for high ROI movie releases, while November and December are preferable for boosting popularity.
+
+![monthrating.png](attachment:monthrating.png)
+
+![budgetrevenue.png](attachment:budgetrevenue.png)
+
+3. The positive correlation between the production budget and worldwide gross for the top 100 movies suggests that higher budgets tend to result in higher revenues. Further analysis can however be made to ascertain the extent of this correlation
+
+![budgetrevenue.png](attachment:budgetrevenue.png)
+
+
+## What Next?
+
+In order enhance the quality of the recommendations herein, I suggest exploring additional data sources and conducting further analysis in various other areas including but not limited to:
+
+1. Streaming and Home Entertainment Revenue: With the growing importance of streaming platforms such as Netflix, including data on revenue from digital and streaming services, can provide a more comprehensive picture of a film's overall financial performance.]
+
+2. Marketing and Promotion: Examining data related to marketing and promotional strategies employed by successful movies can help Microsoft understand how to effectively market their films
+
+3. Impact of Cast on Movie Performance. This analysis can help identify talent with a strong track record of contributing to successful films 
+
+
+## For More Information
+
+See the full analysis in the [Jupyter Notebook](http://localhost:8888/notebooks/dsc-phase1-project-template.ipynb) or review this [presentation](http://localhost:8888/files/DS_Project_Presentation.pdf)
+
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── README.md
+├── DSC_Phase_1_Project_Presentation.pdf
+└── DSC-phase1-project.ipynb
+```
