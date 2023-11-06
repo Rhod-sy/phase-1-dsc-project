@@ -72,7 +72,7 @@ In order enhance the quality of the recommendations herein, I suggest exploring 
 
 ## For More Information
 
-See the full analysis in the ![Project Jupyter Notebook](./DSC-PHASE1-PROJECT.ipynb) or review this [Project Presentation](./DSC-Phase1-Project-Presentation.pdf)
+See the full analysis in the [Project Jupyter Notebook](./DSC-PHASE1-PROJECT.ipynb) or review this [Project Presentation](./DSC-Phase1-Project-Presentation.pdf)
 
 
 ## Repository Structure
