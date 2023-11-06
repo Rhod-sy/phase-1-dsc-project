@@ -1,10 +1,8 @@
-
+![Headerimage](./Charts%20%26%20Images/cinema-4153289_1280.webp)
 
 # Phase 1 Project - Microsoft's Cinematic Exploration: A Box Office Analysis
 
 **Author:** [Rhoda Musyoki](rhoda.musyoki@student.moringaschool.com)
-
-![Headerimage](./Charts%20%26%20Images/cinema-4153289_1280.webp)
 
 
 ## Overview
