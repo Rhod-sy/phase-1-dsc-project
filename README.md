@@ -1,4 +1,4 @@
-![Headerimage](http://localhost:8888/view/Charts%20%26%20Images/8V9H%20(1).gif)
+![Headerimage](./Charts%20%26%20Images/8V9H%281%29.GIF)
 
 
 # Phase 1 Project - Microsoft's Cinematic Exploration: A Box Office Analysis
@@ -46,17 +46,17 @@ Based on the insights from the analysis, the following recommendations are made:
 
 1. To maximize return on investment (ROI), focus on producing movies in the Horror, Mystery, Thriller, and Action, Drama, Family genres.
 
-![GenrevsROI](C:/Users/nrhom/Documents/DSPT/phase_1/dsc-phase-1-project/Charts & Images/genreroi.png)
+![GenrevsROI](./Charts%20%26%20Images/genreroi.png)
 
 2. May, June, and July (summer time) are the ideal months for high ROI movie releases, while November and December are preferable for boosting popularity.
 
-![MonthvsRating](C:/Users/nrhom/Documents/DSPT/phase_1/dsc-phase-1-project/Charts & Images/monthrating.png)
+![MonthvsRating](./Charts%20%26%20Images/monthrating.png)
 
-![MonthRevenue](C:/Users/nrhom/Documents/DSPT/phase_1/dsc-phase-1-project/Charts & Images/monthrevenue.png)
+![MonthRevenue](./Charts%20%26%20Images/monthrevenue.png)
 
 3. The positive correlation between the production budget and worldwide gross for the top 100 movies suggests that higher budgets tend to result in higher revenues. Further analysis can however be made to ascertain the extent of this correlation
 
-![BudgetRevenue](C:/Users/nrhom/Documents/DSPT/phase_1/dsc-phase-1-project/Charts & Images/budgetrevenue.png)
+![BudgetRevenue](./Charts%20%26%20Images/budgetrevenue.png)
 
 
 ## What Next?
@@ -72,16 +72,15 @@ In order enhance the quality of the recommendations herein, I suggest exploring 
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook]("C:\Users\nrhom\Documents\DSPT\dsc-phase1-project\DSC-PHASE1-PROJECT.ipynb") or review this [presentation]("C:\Users\nrhom\Documents\DSPT\dsc-phase1-project\DSC-Phase1-Project-Presentation.pdf")
+See the full analysis in the ![Jupyter Notebook](./DSC-PHASE1-PROJECT.ipynb) or review this [presentation](./DSC-Phase1-Project-Presentation.pdf)
 
 
 ## Repository Structure
 
 ```
-├── data
-├── images
-├── README.md
-├── DSC_Phase_1_Project_Presentation.pdf
-└── DSC-phase1-project.ipynb
-```# phase-1-dsc-project
-# phase-1-dsc-project
+├── Charts & Images
+├── Data
+├── DSC-PHASE1-PROJECT.ipynb
+├── DDSC-Phase1-Project-Presentation.pdf
+└── README.md
+```
