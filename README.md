@@ -4,7 +4,7 @@
 
 **Author:** [Rhoda Musyoki](rhoda.musyoki@student.moringaschool.com)
 
-![Headerimage](./Charts%20%26%20Images/8V9H%281%29.GIF)
+![Headerimage](./Charts%20%26%20Images/cinema-4153289_1280.webp)
 
 
 ## Overview
