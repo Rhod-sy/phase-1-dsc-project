@@ -1,9 +1,11 @@
-![Headerimage](./Charts%20%26%20Images/8V9H%281%29.GIF)
 
 
 # Phase 1 Project - Microsoft's Cinematic Exploration: A Box Office Analysis
 
 **Author:** [Rhoda Musyoki](rhoda.musyoki@student.moringaschool.com)
+
+![Headerimage](./Charts%20%26%20Images/8V9H%281%29.GIF)
+
 
 ## Overview
 
@@ -44,11 +46,11 @@ This project uses descriptive statistics to understand box office trends such as
 
 Based on the insights from the analysis, the following recommendations are made:
 
-1. To maximize return on investment (ROI), focus on producing movies in the Horror, Mystery, Thriller, and Action, Drama, Family genres.
+1. To maximize return on investment (ROI), focus on producing movies in the 'Horror, Mystery, Thriller' genre.
 
 ![GenrevsROI](./Charts%20%26%20Images/genreroi.png)
 
-2. May, June, and July (summer time) are the ideal months for high ROI movie releases, while November and December are preferable for boosting popularity.
+2. November & December are preferable for boosting popularity while May, June & July (summer time) are the ideal months for high ROI movie releases.
 
 ![MonthvsRating](./Charts%20%26%20Images/monthrating.png)
 
@@ -72,7 +74,7 @@ In order enhance the quality of the recommendations herein, I suggest exploring 
 
 ## For More Information
 
-See the full analysis in the ![Jupyter Notebook](./DSC-PHASE1-PROJECT.ipynb) or review this [presentation](./DSC-Phase1-Project-Presentation.pdf)
+See the full analysis in the ![Project Jupyter Notebook](./DSC-PHASE1-PROJECT.ipynb) or review this [Project Presentation](./DSC-Phase1-Project-Presentation.pdf)
 
 
 ## Repository Structure
